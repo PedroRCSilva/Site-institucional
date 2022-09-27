@@ -1,0 +1,11 @@
+.form {
+  padding: 40px 100px;
+}
+
+.campo {
+  margin-top: 10px;
+}
+
+.campo input::placeholder {
+  text-align: center;
+}

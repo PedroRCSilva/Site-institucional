@@ -1,56 +1,63 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   color: #f1f1f1;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
   background-color: black;
 }
-.header{
+
+.active {
+  color: #fdd291;
+  font-weight: bold;
+}
+
+.header {
   padding: 15px;
   border-bottom: 3px solid #32b9cd;
   background-color: #222;
 }
 
-.container{
-  margin:0 auto;
+.container {
+  margin: 0 auto;
   width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-h1{
-  color:#32b9cd;
+h1 {
+  color: #32b9cd;
   font-weight: 800;
 }
-ul{
+
+ul {
   display: flex;
   list-style: none;
-  flex-direction:row;
+  flex-direction: row;
   width: 350px;
   justify-content: space-between;
 }
 
-li{
-  color:#e3b062;
+li {
+  color: #e3b062;
 
 
 }
 
-li a{
+li a {
   text-decoration: none;
   cursor: pointer;
-  color:#e3b062;
+  color: #e3b062;
 }
 
-.banner{
+.banner {
   width: 100%;
   height: 100vh;
-  background-image: url("/assets/img/bg-jelly-fish-para_outras_pags.png");
+  background-image: url("../assets/img/bg-jelly-fish-para_outras_pags.png");
 }
 
 .banner .container {
@@ -65,32 +72,36 @@ li a{
   width: 280px;
 }
 
-.social,.caixa,.caixas{
+.social,
+.caixa,
+.caixas {
   display: flex;
 }
+
 .social {
-width: 100%;
-background-color: #fff;
+  width: 100%;
+  background-color: #fff;
 
 }
 
 
 
-.caixas{
+.caixas {
   margin: 90px 0;
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  flex-wrap: wrap ;
+  flex-wrap: wrap;
   column-gap: 20px;
 }
 
-.caixa{
+.caixa {
   flex-direction: column;
   align-items: center;
   flex: 1;
-  
+
 }
+
 .caixa img {
   width: 170px;
 }
@@ -101,28 +112,25 @@ background-color: #fff;
   margin: 15px 0;
 }
 
-.caixa p{
+.caixa p {
   color: #000;
   text-align: center;
 }
 
-.footer{
+.footer {
   background: #32b9cd;
   height: 70px;
 
 }
 
-.footer .container{
+.footer .container {
   height: 100%;
   justify-content: center;
   align-items: center;
- display: flex;
+  display: flex;
 }
 
 
 .footer p {
   color: #fff;
 }
-
-
-
